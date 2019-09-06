@@ -215,17 +215,16 @@ header nav a    {
 .about-heading  {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    margin-bottom:20px;
-    padding-bottom: 20px;
-    border: 1px dashed black;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
 }
 
 .about-heading h1,
 .about-heading p    {
-    border: 1px solid black;
-    width: 90%;
+    width: 95%;
 }
 
 .card-container {
