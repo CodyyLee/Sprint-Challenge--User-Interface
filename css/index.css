@@ -144,3 +144,76 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*MY CSS*/
+header  {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+}
+
+header nav  {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+header nav a    {
+    text-decoration: none;
+    color: black;
+}
+
+.head-img   {
+    margin: 20px 0;
+}
+
+.middle-content .boxes .box1   {
+    background: teal;
+}
+
+.middle-content .boxes .box2   {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3   {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .boxs .box4   {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5   {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6   {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7   {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8   {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9   {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box0   {
+    background-color: dodgerblue;
+}
+
+/*ABOUT PAGE*/
+
+.about-heading  {
+    margin-bottom:20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
