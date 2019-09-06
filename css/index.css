@@ -144,3 +144,127 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*MY CSS*/
+header  {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+}
+
+header nav  {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+header nav a    {
+    text-decoration: none;
+    color: black;
+}
+
+.head-img   {
+    margin: 20px 0;
+}
+
+.middle-content .boxes .box1   {
+    background: teal;
+}
+
+.middle-content .boxes .box2   {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3   {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4   {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5   {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6   {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7   {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8   {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9   {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box0   {
+    background-color: dodgerblue;
+}
+
+/*ABOUT PAGE*/
+
+.about-heading  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.about-heading h1,
+.about-heading p    {
+    width: 95%;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    width: 100%;
+}
+
+.card   {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.card img   {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card button    {
+    padding: 8px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-heading p,
+.footer-heading h2   {
+    width: 90%;
+}
